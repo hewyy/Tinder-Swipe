@@ -17,7 +17,7 @@ browser = webdriver.Chrome(options=options, executable_path=filename)
 browser.get("https://tinder.com/app/recs")
 
 
-time.sleep(10)
+time.sleep(50)
 
 
 like = browser.find_element_by_xpath("/html/body/div[1]/div/div[1]/div/main/div[1]/div/div/div[1]/div/div[2]/button[3]")
